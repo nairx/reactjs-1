@@ -12,6 +12,7 @@ import App9 from "./components/App9";
 import App10 from "./components/App10";
 import App11 from "./components/App11";
 import App12 from "./components/App12";
+import App13 from "./components/App13";
 import Layout from "./components/Layout";
 import ErrorPage from "./components/ErrorPage";
 import ErrorPageGlobal from "./components/ErrorPageGlobal";
@@ -71,6 +72,11 @@ function App() {
         {
           path: "/App12",
           element: <App12 />,
+          errorElement: <ErrorPage />,
+        },
+        {
+          path: "/App13",
+          element: <App13 />,
           errorElement: <ErrorPage />,
         },
       ],

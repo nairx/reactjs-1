@@ -41,6 +41,9 @@ function Header() {
         <li>
           <Link to="/app12">App12</Link>
         </li>
+        <li>
+          <Link to="/app13">App13</Link>
+        </li>
       </ul>
     </div>
   );
